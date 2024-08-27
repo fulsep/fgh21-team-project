@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -73,6 +72,10 @@ function Home() {
                   Book
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="min-h-screen p-10 flex flex-col w-full justify-center items-center gap-10">
         <h1 className="text-[#20b1af] text-2xl font-semibold uppercase">
           Services
