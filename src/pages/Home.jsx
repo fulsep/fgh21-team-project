@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 function Home() {
   return (
     <Layout>
-      <div className="min-h-screen p-10">
+      <div className="min-h-screen p-10 flex flex-col gap-8">
         <div className="text-4xl font-bold flex justify-center gap-8">
           <div className="shadow-md overflow-hidden rounded-2xl">
             <div className="bg-red-400 h-screen max-h-[200px] p-4"></div>
@@ -75,6 +75,9 @@ function Home() {
             </div>
           </div>
         </div>
+        <button className="border text-orange-400 border-orange-700 items-center p-4 font-bold mx-[600px] rounded-xl">
+          See All Catalogs
+        </button>
       </div>
       <div className="min-h-screen p-10 flex flex-col w-full justify-center items-center gap-10">
         <h1 className="text-[#20b1af] text-2xl font-semibold uppercase">
