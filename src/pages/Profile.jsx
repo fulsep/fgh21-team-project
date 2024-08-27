@@ -9,7 +9,7 @@ function Profile(){
     return(
     <Layout>
         <div className='min-h-screen p-10'>
-            <div className="w-full mt-40 flex justify-center bg-slate-400 pt-20 pb-20 rounded-3xl">
+            <div className="w-full mt-20 flex flex-col justify-center bg-slate-400 pt-20 pb-20 rounded-3xl">
                 <table className="text-white text-4xl">
                         <tr className="">
                             <td className=" pl-11">Name :</td> 
@@ -30,8 +30,11 @@ function Profile(){
                         <tr className="">
                             <td className="  pl-11">Profession :</td>
                             <td className="pl-11">Fullstack Developer</td>    
-                        </tr>                               
+                        </tr>                             
                 </table>
+                <div className="w-full h-20 flex justify-center mt-10">
+                    <button className="w-40 text-5xl bg-blue-500 rounded-3xl">Save</button>       
+                </div>
             </div>
         </div>
     </Layout>
