@@ -58,6 +58,8 @@ function Home() {
               </div>
             </div>
           </div>
+          </div>
+        </div>
           <div className="shadow-md overflow-hidden rounded-2xl">
             <div className="bg-blue-400 h-screen max-h-[200px] p-4"></div>
             <div className="flex flex-col gap-2 p-4">
@@ -72,6 +74,8 @@ function Home() {
                 <button className="text-xl text-orange-400 border border-orange-400 py-2 px-4 rounded-xl">
                   Book
                 </button>
+              </div>
+              </div>
               </div>
       <div className="min-h-screen p-10 flex flex-col w-full justify-center items-center gap-10">
         <h1 className="text-[#20b1af] text-2xl font-semibold uppercase">
@@ -127,7 +131,7 @@ function Home() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 export default Home;
