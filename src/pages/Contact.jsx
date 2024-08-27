@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { FaEnvelope } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
             <button>submit</button>
           </form>
         </div>
-        <div className="flex flex-col justify-center items-center w-[50%]">
+        <div className="flex flex-col justify-center items-center w-[50%] gap-[20px]">
           <h2 className="font-bold text-[50px]">info</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -25,6 +26,10 @@ function Contact() {
             asperiores, non maiores possimus officia aut aspernatur at esse
             veniam deserunt cupiditate, voluptatem quas.
           </p>
+          <button className="flex items-center gap-[20px] hover:text-blue-400">
+            <FaEnvelope className="text-[20px]" />
+            <div>Admin#123@mail.com</div>
+          </button>
         </div>
       </div>
     </Layout>
