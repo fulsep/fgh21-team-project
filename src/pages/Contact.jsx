@@ -5,7 +5,7 @@ function Home() {
   return (
     <Layout>
       <div className="flex min-h-screen p-10">
-        <div className="flex flex-col justify-center items-center w-[50%] bg-red-600">
+        <div className="flex flex-col justify-center items-center w-[50%]">
           <h1 className="font-bold text-[50px]">Contact Us</h1>
           <form className="flex flex-col bg-black text-white w-[325px] p-[50px] rounded-xl">
             <label>Name</label>
@@ -17,7 +17,9 @@ function Home() {
             <button>submit</button>
           </form>
         </div>
-        <div></div>
+        <div className="flex flex-col justify-center items-center w-[50%]">
+          <h2 className="font-bold text-[50px]">info</h2>
+        </div>
       </div>
     </Layout>
   );
