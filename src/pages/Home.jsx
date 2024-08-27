@@ -57,6 +57,8 @@ function Home() {
               </div>
             </div>
           </div>
+          </div>
+        </div>
           <div className="shadow-md overflow-hidden rounded-2xl">
             <div className="bg-blue-400 h-screen max-h-[200px] p-4"></div>
             <div className="flex flex-col gap-2 p-4">
@@ -135,7 +137,7 @@ function Home() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 export default Home;
