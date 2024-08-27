@@ -73,6 +73,10 @@ function Home() {
                   Book
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="min-h-screen p-10 flex flex-col w-full justify-center items-center gap-10">
         <h1 className="text-[#20b1af] text-2xl font-semibold uppercase">
           Services
@@ -124,6 +128,11 @@ function Home() {
               </button>
             </div>
           </div>
+        </div>
+        <div>
+          <button className="bg-red-500 p-3 rounded-md text-white font-semibold uppercase">
+            ini button
+          </button>
         </div>
       </div>
     </Layout>
