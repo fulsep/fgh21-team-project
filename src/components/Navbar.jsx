@@ -16,7 +16,7 @@ function Navbar() {
           <Link to="/contact">Contact Us</Link>
         </li>
         <li>
-          <Link to="/">Profile</Link>
+          <Link to="/Profile">Profile</Link>
         </li>
       </ul>
       <div className="flex gap-5 items-center">

@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { FaEnvelope } from "react-icons/fa6";
+import Input from "../components/Input";
 
 function Contact() {
   return (
@@ -8,14 +9,14 @@ function Contact() {
       <div className="flex min-h-screen p-10">
         <div className="flex flex-col justify-center items-center w-[50%]">
           <h1 className="font-bold text-[50px]">Contact Us</h1>
-          <form className="flex flex-col bg-black text-white w-[325px] p-[50px] rounded-xl">
+          <form className="flex flex-col bg-black text-white w-[325px] p-[50px] rounded-xl gap-4">
             <label>Name</label>
-            <input type="name" className="bg-white" />
+            <Input type="text" placeholder="Input Your Name..."></Input>
             <label>Email</label>
-            <input type="email" className="bg-white" />
+            <Input type="text" placeholder="Input Your Email.."></Input>
             <label>Message</label>
-            <input type="text-area" className="bg-white" />
-            <button>submit</button>
+            <Input type="text" placeholder="Message For us"></Input>
+            <button className="bg-white text-black p-2 rounded-md">submit</button>
           </form>
         </div>
         <div className="flex flex-col justify-center items-center w-[50%] gap-[20px]">

@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import People from '../assets/img/people.jpg'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
@@ -14,6 +15,11 @@ function About() {
             <div className="w-1/4">
                 <img src={People} alt="" className='rounded-xl'/>
             </div>
+        </div>
+        <div className="flex justify-center">
+            <Link to="/">
+                <button type="button" className='border-2 p-3 rounded-xl mb-10 bg-black text-white'>Back Home</button>
+            </Link>
         </div>
     </Layout>
   )
