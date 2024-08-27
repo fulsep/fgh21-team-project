@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-function Home() {
+function Contact() {
   return (
     <Layout>
       <div className="flex min-h-screen p-10">
@@ -19,10 +19,16 @@ function Home() {
         </div>
         <div className="flex flex-col justify-center items-center w-[50%]">
           <h2 className="font-bold text-[50px]">info</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            placeat, corrupti provident commodi voluptate consequatur explicabo
+            asperiores, non maiores possimus officia aut aspernatur at esse
+            veniam deserunt cupiditate, voluptatem quas.
+          </p>
         </div>
       </div>
     </Layout>
   );
 }
 
-export default Home;
+export default Contact;
