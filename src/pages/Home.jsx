@@ -58,7 +58,6 @@ function Home() {
             </div>
           </div>
           </div>
-        </div>
           <div className="shadow-md overflow-hidden rounded-2xl">
             <div className="bg-blue-400 h-screen max-h-[200px] p-4"></div>
             <div className="flex flex-col gap-2 p-4">
@@ -80,7 +79,6 @@ function Home() {
         <button className="border text-orange-400 border-orange-700 items-center p-4 font-bold mx-[600px] rounded-xl">
           See All Catalogs
         </button>
-      </div>
       <div className="min-h-screen p-10 flex flex-col w-full justify-center items-center gap-10">
         <h1 className="text-[#20b1af] text-2xl font-semibold uppercase">
           Services
