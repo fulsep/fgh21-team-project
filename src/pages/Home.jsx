@@ -128,6 +128,11 @@ function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <button className="bg-red-500 p-3 rounded-md text-white font-semibold uppercase">
+            ini button
+          </button>
+        </div>
       </div>
     </Layout>
   );
